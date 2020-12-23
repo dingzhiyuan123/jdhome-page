@@ -1,0 +1,655 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?axvffw');
+    src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+      url('../fonts/icomoon.woff?axvffw') format('woff'),
+      url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{margin: 0;padding: 0;}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+.guanggao{
+    width: 1190px;
+    height: 80px;
+    display: block;
+    background: url(../images/top.jpg);
+    margin: auto;
+    text-decoration: none;
+    text-align: right;
+}
+.guanggao i{
+    font-family: "icomoon";
+    font-style: normal;
+    color:#999;
+    font-size: 20px;    
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+.all{
+    width: 1190px;
+    height: 30px;
+    margin: auto;
+}
+.all-left{
+    width: 48px;
+    float: left;
+}
+.all-left span{
+    font-family: "icomoon";
+    font-style: normal;
+    color: red;
+}
+.all-left a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+.xia{
+    font-family: "icomoon";
+    font-style: normal;
+}
+.all-right{
+    float: right;
+}
+.all-right li{
+    float: right;
+    list-style: none;
+    width: 62px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.all-right a{
+    text-decoration: none;
+    color: #777;
+}
+#lastli{
+    width: 130px;
+}
+.lasta{
+    color: red;
+}
+.all-right ul>span{
+    float:right;
+    color: #777;
+    margin-top: 3px;
+}
+
+
+.zhongjian{
+    width: 100%;
+    height: 620px;
+    background-color: rgb(246, 246, 246);
+}
+.input{
+    width: 1190px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.input a img{
+    height: 140px;
+    width: 190px;
+}
+.input>a{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sousuokuang{
+    width: 550px;
+    height: 36px;
+    margin: auto;
+    position: relative;
+    border: 1px solid red;
+    margin-top: 15px;
+}
+.sousuokuang>input{
+    width: 490px;
+    height: 36px;
+    outline: none;
+    color: #999;
+    font-size: 18px;
+    border: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sousuokuang button{
+    width: 60px;
+    height: 36px;
+    font-family: "icomoon";
+    font-style: normal;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background-color: red;
+    outline: none;
+    border: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    height: 480px;
+    background: url(../images/bg.png) no-repeat top;
+    margin: auto;
+}
+.all-right ul li a:hover{
+    color: red;
+}
+.camera{
+    display: block;
+    width: 19px;
+    height: 15px;
+    background: url(../images/sprite-search.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+.sousuokuang a:hover{
+    background-position:-30px 0px ;
+
+}
+.gouwuche{
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
+.gouwuche span{
+    font-family: "icomoon";
+    font-style: normal;
+}
+.gouwuche button{
+    width: 190px;
+    height: 36px;
+    color: red;
+    background-color: white;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+.gouwuche sup{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+.erweima{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.erweima img{
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.xiaozi{
+    font-size: 12px;
+    position: absolute;
+    left: 318px;
+    margin-top: 10px;
+}
+.xiaozi a{
+    color: #777;
+    text-decoration: none;
+}
+#xiaozia{
+    color: red;
+}
+.xiaozi a:hover{
+    color: red;
+}
+.navbot{
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+}
+.navbot li{
+    float: left;
+    list-style: none;
+    height: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbot ul>span{
+    display:block;
+    margin-left: 15px;
+    float: left;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbot a{
+    text-decoration: none;
+    color: #555A5F;
+    font-weight: 600;
+}
+.computer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.navbot a:hover{
+    color: red;
+}
+.contentcenter{
+    width: 1190px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+}
+.ulleft{
+    width: 190px;
+    height: 480px;
+    background-color: #6E6568;
+    overflow: hidden;
+}
+.ulleft ul{
+    width: 190px;
+    height: 448px;
+    margin-top: 10px;
+}
+.ulleft li{
+    width: 190px;
+    height: 28px;
+    list-style: none;
+    padding: 0.5px;
+}
+.ulleft a{
+    text-decoration: none;
+    color: white;
+}
+.ulleft li:hover{
+    background-color: #999;
+}
+.datu{
+    width: 790px;
+    height: 340px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+.jiantouleft{
+    display: block;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: rgba(0, 0, 0,0.4);
+    font-family: "icomoon";
+    font-style: normal;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+.jiaotouright{
+    display: block;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    background-color: rgba(0, 0, 0,0.4);
+    font-family: "icomoon";
+    font-style: normal;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    text-indent: -10px;
+}
+.circle{
+    position: absolute;
+    bottom: 0px;
+    left: 305px;
+}
+.circle ul{
+    width: 180px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.circle li{
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    float: left;
+    margin: 5px;
+}
+#org{
+    background-color: orangered;
+}
+.circle a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.contentright{
+    width: 190px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.geren{
+    width: 190px;
+    height: 115px;
+    background-color: pink;
+}
+.geren img{
+    border-radius: 50%;
+    margin: 10px;
+}
+.geren span{
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 10px;
+    font-size: 14px;
+    color: #777;
+}
+.denglu{
+    position: absolute;
+    top: 35px;
+    right: 45px;
+}
+.denglu a{
+    text-decoration: none;
+    color: #777;
+}
+.denglu a:hover{
+    color: red;
+}
+.geren button{
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: 2px solid red;
+    color: red;
+}
+.geren button{
+    width: 74px;
+    height: 24px;
+    cursor: pointer;
+}
+.buttons{
+    margin-left: 15px;
+}
+.buttons button:hover{
+    background-color: red;
+    color: white;
+}
+.cuxiao{
+    width: 190px;
+    height: 156px;
+}
+.head{
+    width: 160px;
+    height: 25px;
+    margin: auto;
+    font-size: 15px;
+    border-bottom: 1px solid #777;
+}
+.head a{
+    text-decoration: none;
+    color: #777;
+}
+.head span{
+    color: #777;
+}
+.ula{
+    width: 160px;
+    height: 92px;
+    margin: auto;
+    margin-top: 10px;
+}
+.ula li{
+    list-style: none;
+    margin-top: 5px;
+}
+.ula a{
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
+}
+.xuankuang{
+    width: 190px;
+    height: 209px;
+}
+.xuankuang li{
+    width: 46px;
+    height: 69px;
+    float: left;
+    list-style: none;
+}
+.xuankuang a{
+    text-decoration: none;
+    color: #777;
+}
+.xuankuang span{
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+}
+.xuankuang p{
+    text-align: center;
+}
+.xuankuang ul{
+    border-top: 1px solid #777;
+}
+.xuankuang li{
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+#right{
+    border-right: 0px;
+}
+#bottom{
+    border-bottom: 0px;
+}
+.pic1{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+.pic2{
+    position: absolute;
+    bottom: 0;
+    right:200px;
+}
+.footer{
+    width:100%;
+    height: 560px;
+    background-color: #eaeaea;
+    position: relative;
+}
+.footcenter{
+    width: 1190px;
+    height: 560px;
+    margin: auto;
+}
+.fot1{
+    width: 1190px;
+    height: 102px;
+    overflow: hidden;
+}
+.fot1 ul{
+    width: 1190px;
+    height: 42px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.li1{
+    float: left;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    list-style: none;
+    text-align: center;
+    background: url(../images/ico_service.png) no-repeat 0px 0px;
+    
+}
+.li2{
+    float: left;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    list-style: none;
+    text-align: center;
+    background: url(../images/ico_service.png) no-repeat 0px -42px;
+    
+}
+.li3{
+    float: left;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    list-style: none;
+    text-align: center;
+    background: url(../images/ico_service.png) no-repeat 0px -84px;
+    
+}
+.li4{
+    float: left;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    list-style: none;
+    text-align: center;
+    background: url(../images/ico_service.png) no-repeat 0px -126px;
+    
+}
+.fot1 li{
+    margin: 0px 15px;
+}
+.fot1 p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.linel{
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 102px;
+}
+.help{
+    width: 1190px;
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-bottom: 10px;
+}
+.help dl{
+    float: left;
+    width: 195px;
+    height: 162px;
+    margin-top: 10px;
+}
+.help dt{
+    width: 195px;
+    height: 30px;
+    margin-left: 5px;
+    color: #777;
+}
+.help dd{
+    width: 195px;
+    height: 22px;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.help a{
+    text-decoration: none;
+    color: #777;
+}
+.help a:hover{
+    color: red;
+}
+.map{
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 207px;
+    height: 150px;
+    background: url(../images/ico_footer.png) no-repeat top left;
+}
+.map dt{
+    width: 207px;
+    height: 30px;
+    text-align: center;
+}
+.map dd{
+    width: 175px;
+    height: 50px;
+    font-size: 12px;
+    color: #777;
+}
+.map .bb{
+    text-align: right;
+}
+.zhuce{
+    width: 1190px;
+    height: 196px;
+}
+.link{
+    width: 1190px;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: #777;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+.gongshang{
+    text-align: center;
+    margin-top: 20px;
+}
+.gongshang a{
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background: url(../images/ico_footer.png)no-repeat 0px -151px;
+}
